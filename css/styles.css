@@ -1,5 +1,79 @@
 /* первичный цвет текста #212121 */
 /* вторичный цвет текста #757575 */
-/* цвета лого #000000; #2196F3 */
+/* цвета лого #000000; FFFFFF; #2196F3 */
 /* цвет акцента #2196F3 */
 /* белый #FFFFFF */
+/* цвет фона #E5E5E5 */
+
+:root{
+    --title-color: #212121;
+    --text-color: #757575;
+    --accent-color: #2196F3;
+
+
+}
+
+body{
+    background-color: #FFFFFF;
+    font-family: ;
+}
+.team{
+    background-color: #F5F4FA;
+}
+.header-logo{
+    color: var(--accent-color);
+}
+.header-logo-part{
+    color:#000000 ;
+}
+.list{
+    list-style: none;
+}
+.nav-link{
+    color: var(--title-color);
+}
+.nav-link:hover,
+.nav-link:focus {
+    color: var(--accent-color);
+}
+.nav-link.curent{
+    color: var(--accent-color);
+}
+.footer{
+    background: #2F303A;
+}
+.footer-logo{
+    color: var(--accent-color);
+}
+.footer-logo-part{
+    color: #FFFFFF;
+}
+
+.footer-link{
+    color: #FFFFFF;
+}
+.footer-link:hover,
+.footer-link:focus{
+    color: var(--accent-color);
+}
+.place{
+    color: #FFFFFF;
+}
+.section-title{
+    color: var(--title-color) ;
+}
+.btn{
+    color: var(--title-color);
+    background-color:#FFFFFF ;
+}
+.btn:hover,
+.btn:focus{
+    color:#FFFFFF ;
+    background-color: var(--accent-color);
+}
+.examples{
+
+}
+.section-text{
+    color: var(--text-color);
+}
