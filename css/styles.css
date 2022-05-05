@@ -15,13 +15,17 @@
 
 body{
     background-color: #FFFFFF;
-    font-family: ;
+    font-family: Roboto, sans-serif ;
+
 }
-.team{
-    background-color: #F5F4FA;
-}
+
 .header-logo{
     color: var(--accent-color);
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;  
+    letter-spacing: 0.03em;
 }
 .header-logo-part{
     color:#000000 ;
@@ -31,20 +35,37 @@ body{
 }
 .nav-link{
     color: var(--title-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 .nav-link:hover,
 .nav-link:focus {
     color: var(--accent-color);
 }
+
 .nav-link.curent{
     color: var(--accent-color);
 }
+
+.team {
+    background-color: #F5F4FA;
+}
+
 .footer{
     background: #2F303A;
 }
+
 .footer-logo{
     color: var(--accent-color);
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
 }
+
 .footer-logo-part{
     color: #FFFFFF;
 }
@@ -56,24 +77,61 @@ body{
 .footer-link:focus{
     color: var(--accent-color);
 }
+
 .place{
     color: #FFFFFF;
 }
+
 .section-title{
     color: var(--title-color) ;
 }
+
 .btn{
+    background-color:#FFFFFF;
     color: var(--title-color);
-    background-color:#FFFFFF ;
+   
 }
 .btn:hover,
 .btn:focus{
-    color:#FFFFFF ;
     background-color: var(--accent-color);
+    color:#FFFFFF ;
+    
 }
 .examples{
 
 }
 .section-text{
     color: var(--text-color);
+}
+
+.hero-title{
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36; 
+    text-align: center;
+    letter-spacing: 0.06em;
+}
+
+.hero-button{
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+}
+
+.section-text{
+    color: var(--text-color);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+.ex-section-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
 }
