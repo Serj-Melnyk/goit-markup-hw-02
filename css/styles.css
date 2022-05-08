@@ -17,6 +17,7 @@
 
 
 }
+/* body */
 
 body{
     background-color: #FFFFFF;
@@ -28,6 +29,8 @@ body{
 
 }
 
+ /* logo */
+
 .header-logo{
     color: var(--accent-color);
     font-family: var(--secondary-font);
@@ -37,12 +40,20 @@ body{
     letter-spacing: 0.03em;
     text-decoration: none;
 }
+
 .header-logo-part{
     color:#000000 ;
+
 }
 .list{
     list-style: none;
 }
+
+.link{
+    text-decoration: none;
+}
+
+ /* navigation */
 
 .nav-link{
     color: var(--title-color);
@@ -61,9 +72,22 @@ body{
     color: var(--accent-color);
 }
 
+ /* team */
+
 .team {
     background-color: #F5F4FA;
 }
+.team-title{
+    color: var(--title-color);
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+ /* hero */
 
 .hero-title {
     color: #FFFFFF;
@@ -77,14 +101,20 @@ body{
 }
 
 .hero-button {
-    font-family: inherit;
+    color: #FFFFFF;
+    background-color: var(--accent-color);
+
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
+    display: flex;
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
+    cursor: pointer;
 }
+ /* footer */
+
 .footer{
     background: #2F303A;
 }
@@ -92,7 +122,7 @@ body{
 .footer-logo{
     color: var(--accent-color);
 
-    font-family: Raleway, sans-serif;
+    font-family:var(--secondary-font);
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
@@ -113,11 +143,9 @@ body{
     color: var(--accent-color);
 }
 
-.place{
-    color: #FFFFFF;
-}
+ /* skills */
 
-.section-title{
+.skills-title{
     color: var(--title-color) ;
 
     font-weight: 700;
@@ -127,38 +155,83 @@ body{
     text-transform: uppercase;
 }
 
-.section-text {
+.skills-text{
     color: var(--text-color);
 
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
 
-.btn{
-    background-color:#FFFFFF;
+}
+
+ /* button */ 
+
+.btn-item {
     color: var(--title-color);
-   
+    background-color: #FFFFFF;
+    cursor: pointer;
+
 }
-.btn:hover,
-.btn:focus{
+
+.btn-item:hover,
+.btn-item:focus {
+    color: #FFFFFF;
     background-color: var(--accent-color);
-    color:#FFFFFF ;
-    
-}
-.examples{
-    text-decoration: none;
 }
 
+ /* exemples */
 
+.examples-title{
+    color: var(--title-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
 }
-.ex-section-text{
+.examples-text{
     color: var(--text-color);
-
+    
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
 }
 
+ /* work */
+
 .work-title{
-    
+    color: var(--title-color);
+   
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.worker-title{
+    color: var(--title-color);
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.worker-text{
+    color: var(--text-color);
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+ /* address */
+
+.place {
+    color: #FFFFFF;
+}
+
+.adds{
+    font-style: inherit;
 }
